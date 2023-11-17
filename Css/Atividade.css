@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+body{
+background-color: rgb(198, 198, 198);
+margin: 0px;
+padding: 0px;
+}
+.Principal{
+    width: 360px;
+    height: 740px;
+    margin: auto;
+    background-color: gray;
+}
+.Navegação{
+    width: 360px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.Botão{
+    color: black;
+    font-family: 'Cutive Mono', monospace;
+    margin-left: 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.Botão:hover{
+    color: sienna;
+    font-weight: bold;
+}
+.texto001{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'cutive mono', monospace;
+    text-align: center;
+    font-size: 30px;
+}
+.area001{
+    width: 90%;
+    height: 460px;
+    background-color: rgb(70, 69, 69);
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.area002{
+    width: 85%;
+    height: 800px;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-image: url(/Imagens/Netflix.jpg);
+    background-size: cover;
+}
+.texto002{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.texto003{
+    width: 360px;
+    height: 1600px;
+    background-color: grey;
+    margin: auto;
+    flex-direction: row;
+}
+.texto004{
+    width: 360px;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    
+}
+.coluna1{
+    width: 280px;
+    height: 360px;
+    background-color: rgb(65, 55, 58);
+    border-radius: 20px;
+    background-image: url(/Imagens/Crepusculo.jpg);
+    background-size: cover;
+    margin: auto;
+}
+.coluna2{
+    width: 280px;
+    height: 360px;
+    background-color: chocolate;
+    border-radius: 20px;
+    background-image: url(/Imagens/Amanhecer1.webp);
+    background-size: cover;
+    margin: auto;
+    margin-top: 30px;
+}
+.coluna3{
+    width: 280px;
+    height: 360px;
+    background-color: blue;
+    border-radius: 20px;
+    background-image: url(/Imagens/Amanhecer2.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 30px;
+}
+.texto005{
+    width: 340px;
+    height: 120px;
+    text-align: center;
+    color: white;
+    margin-top: 250px;
+    
+}
+.texto006{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 5px;
+    margin-top: 70px;
+    margin-left: 10%;
+
+}
+.coluna4{
+    width: 80px;
+    height: 80px;
+    background-color: deeppink;
+    border-radius: 50px;
+    background-image: url(/Imagens/Edward.jpg);
+    background-size: cover;
+    margin: auto;
+}
+.coluna5{
+    width: 80px;
+    height: 80px;
+    background-color: cornflowerblue;
+    border-radius: 50px;
+    background-image: url(/Imagens/Bella.webp);
+    background-size: cover;
+    margin: auto;
+}
+.coluna6{
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    border-radius: 50px;
+    background-image: url(/Imagens/Jacob.jpg);
+    background-size: cover;
+    margin: auto;
+}
+.texto007{
+    width: 360px;
+    height: 1000px;
+    background-color: rgb(110, 150, 138);
+    margin: auto;
+    display: flex;
+}
+.texto008{
+    width: 340px;
+    height: 350px;
+    background-color: rgb(129, 163, 149);
+    margin: auto;
+    margin-left: 10px;
+    margin-top: 25px;
+    border-radius: 50px;
+}
+.coluna7{
+    width: 250px;
+    height: 250px;
+    background-color: coral;
+    margin: auto;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 30px;
+    background-image: url(/Imagens/Rapunzel.jpg);
+    background-size: cover;
+}
+.texto009{
+    width: 340px;
+    height: 120px;
+    text-align: center;
+    margin-top: 90px;
+    color: white;
+}
+.texto010{
+    width: 300px;
+    height: 400px;
+    background-color: darkgreen;
+    margin: auto;
+    border-radius: 30px;
+    background-image: url(/Imagens/Enrolados.jpg);
+    background-size: cover;
+}
+.texto011{
+    width: 120px;
+    height: 20px;
+    background-color: rgb(59, 155, 66);
+    margin-left: -10px;
+    margin-top: 35px;
+}
+.coluna8{
+    width: 120px;
+    height: 20px;
+    background-color: rgb(19, 107, 81);
+    margin-left: 120px;
+}
+.coluna9{
+    width: 120px;
+    height: 20px;
+    background-color: cadetblue;
+    margin-left: 240px;
+    margin-top: -20px;
+}
+
+ 
+/* x-Large (Aplicacao para desktops, 1200px and up)*/
+@media (min-width: 1200px){
+.Principal{
+    width: 1000px;
+    height: 700px;
+}
+
+.Navegação{
+    width: 100%;
+}
+.texto001{
+    height: 250px;
+}
+.area001{
+    width: 900px;
+    height: 300px;
+    flex-direction: row;
+}
+.area002{
+    width: 40%;
+    height: 260px;
+}
+.texto002{
+    width: 40%;
+    height: 260px;
+}
+
+.texto003{
+    width: 1000px;
+    height: 800px;
+    background-color: grey;
+    margin: auto;
+    flex-direction: row;
+}
+.texto004{
+    width: 1000px;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.coluna1{
+    width: 280px;
+    height: 360px;
+    background-color: rgb(65, 55, 58);
+    border-radius: 20px;
+    background-image: url(/Imagens/Crepusculo.jpg);
+    background-size: cover;
+}
+.coluna2{
+    width: 280px;
+    height: 360px;
+    background-color: chocolate;
+    border-radius: 20px;
+    background-image: url(/Imagens/Amanhecer1.webp);
+    background-size: cover;
+}
+.coluna3{
+    width: 280px;
+    height: 360px;
+    background-color: blue;
+    border-radius: 20px;
+    background-image: url(/Imagens/Amanhecer2.jpg);
+    background-size: cover;
+}
+.texto005{
+    width: 500px;
+    height: 120px;
+    margin-left: 530px;
+    margin-top: 50px;
+    color: white;
+}
+.texto006{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 5px;
+    margin-top: 70px;
+
+}
+.coluna4{
+    width: 80px;
+    height: 80px;
+    background-color: deeppink;
+    border-radius: 50px;
+    background-image: url(/Imagens/Edward.jpg);
+    background-size: cover;
+}
+.coluna5{
+    width: 80px;
+    height: 80px;
+    background-color: cornflowerblue;
+    border-radius: 50px;
+    background-image: url(/Imagens/Bella.webp);
+    background-size: cover;
+}
+.coluna6{
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    border-radius: 50px;
+    background-image: url(/Imagens/Jacob.jpg);
+    background-size: cover;
+}
+.texto007{
+    width: 1000px;
+    height: 800px;
+    background-color: rgb(110, 150, 138);
+    margin: auto;
+    display: flex;
+}
+.texto008{
+    width: 950px;
+    height: 350px;
+    background-color: rgb(129, 163, 149);
+    margin: auto;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 50px;
+}
+.coluna7{
+    width: 250px;
+    height: 250px;
+    background-color: coral;
+    margin-left: 60px;
+    margin-top: 50px;
+    border-radius: 30px;
+    background-image: url(/Imagens/Rapunzel.jpg);
+    background-size: cover;
+}
+.texto009{
+    width: 400px;
+    height: 200px;
+    margin-left: 0px;
+    margin-top: 90px;
+    color: white;
+}
+.texto010{
+    width: 220px;
+    height: 300px;
+    background-color: darkgreen;
+    margin-left: 750px;
+    margin-top: -130px;
+    border-radius: 30px;
+    background-image: url(/Imagens/Enrolados.jpg);
+    background-size: cover;
+}
+.texto011{
+    width: 1000px;
+    height: 40px;
+    background-color: rgb(48, 122, 98);
+    margin-left: -25px;
+    margin-top: 45px;
+}
+.coluna8{
+    width: 333px;
+    height: 40px;
+    background-color: rgb(92, 150, 121);
+}
+.coluna9{
+    width: 333px;
+    height: 40px;
+    background-color: cadetblue;
+    margin-left: 668px;
+    margin-top: -40px;
+}
+.coluna10{
+    width: 500px;
+    height: 200px;
+    margin-left: 400px;
+    margin-top: -720px;
+    color: black;
+}
+}
